@@ -61,11 +61,7 @@ import io.flutter.plugin.common.PluginRegistry.RequestPermissionsResultListener;
 
 
 /** FlutterBluePlugin */
-<<<<<<< HEAD:android/src/main/java/com/pauldemarco/flutter_blue/FlutterBluePlugin.java
-public class FlutterBluePlugin implements MethodCallHandler, RequestPermissionsResultListener  {
-=======
 public class FlutterBluePlugin implements FlutterPlugin, ActivityAware, MethodCallHandler, RequestPermissionsResultListener  {
->>>>>>> upstream/master:android/src/main/java/com/pauldemarco/flutter_blue/FlutterBluePlugin.java
     private static final String TAG = "FlutterBluePlugin";
     private static FlutterBluePlugin instance;
     private Object initializationLock = new Object();

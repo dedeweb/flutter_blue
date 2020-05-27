@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-## 0.6.3+1
-* Fix compilation issue with iOS
-* Bump protobuf version to 1.0.0
-
-## 0.6.3
-* Update project files for Android and iOS
-* Remove dependency on protoc for iOS
-=======
 ## 0.7.2
 * Add `allowDuplicates` option to `startScan`.
 * Fix performance issue with GUID initializers.
@@ -31,7 +22,6 @@
 ## 0.6.3
 * Update project files for Android and iOS.
 * Remove dependency on protoc for iOS.
->>>>>>> upstream/master
 
 ## 0.6.2
 * Add `mtu` and `requestMtu` to BluetoothDevice.

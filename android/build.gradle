@@ -21,11 +21,7 @@ buildscript {
     }
 
     dependencies {
-<<<<<<< HEAD
-        classpath 'com.android.tools.build:gradle:3.5.0'
-=======
         classpath 'com.android.tools.build:gradle:3.5.2'
->>>>>>> upstream/master
         classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.10'
     }
 }
